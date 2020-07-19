@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/COVID19_amid_twitter_analysing/static/css/main.9feadecf.chunk.css",
+    "main.js": "/COVID19_amid_twitter_analysing/static/js/main.7f7e9e4c.chunk.js",
+    "main.js.map": "/COVID19_amid_twitter_analysing/static/js/main.7f7e9e4c.chunk.js.map",
+    "runtime-main.js": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js",
+    "runtime-main.js.map": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js.map",
+    "static/css/2.5a2f7233.chunk.css": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css",
+    "static/js/2.721965ab.chunk.js": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js",
+    "static/js/2.721965ab.chunk.js.map": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js.map",
+    "index.html": "/COVID19_amid_twitter_analysing/index.html",
+    "precache-manifest.d13806673580fc3816f6c5aa25d84ae8.js": "/COVID19_amid_twitter_analysing/precache-manifest.d13806673580fc3816f6c5aa25d84ae8.js",
+    "service-worker.js": "/COVID19_amid_twitter_analysing/service-worker.js",
+    "static/css/2.5a2f7233.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css.map",
+    "static/css/main.9feadecf.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/main.9feadecf.chunk.css.map",
+    "static/js/2.721965ab.chunk.js.LICENSE.txt": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e8094e5.js",
+    "static/css/2.5a2f7233.chunk.css",
+    "static/js/2.721965ab.chunk.js",
+    "static/css/main.9feadecf.chunk.css",
+    "static/js/main.7f7e9e4c.chunk.js"
+  ]
+}
