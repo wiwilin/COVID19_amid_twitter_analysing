@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9541087f72344fd62b3e3313c70152cc",
+    "revision": "8ea170e18b135cba889183578ba00d38",
     "url": "/COVID19_amid_twitter_analysing/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css"
   },
   {
-    "revision": "6567cd43404755653844",
+    "revision": "7ebd3c924710057e4e11",
     "url": "/COVID19_amid_twitter_analysing/static/css/main.9feadecf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6567cd43404755653844",
-    "url": "/COVID19_amid_twitter_analysing/static/js/main.7f7e9e4c.chunk.js"
+    "revision": "7ebd3c924710057e4e11",
+    "url": "/COVID19_amid_twitter_analysing/static/js/main.e45aca2d.chunk.js"
   },
   {
     "revision": "d741e023223303d4043d",
