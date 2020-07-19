@@ -28,7 +28,7 @@ class innerMap extends Component {
         if (!window.google) {
             var scriptElement = document.createElement('script');
             scriptElement.type = 'text/javascript';
-            scriptElement.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBlGw4U8ih7EbHYd-eePrtsV3c8QpZ-9fs`;
+            scriptElement.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCJPcKqhriy5E0q16U9uvbkKLLP4QwrLmI`;
             var tagNameElement = document.getElementsByTagName('script')[0];
             tagNameElement.parentNode.insertBefore(scriptElement, tagNameElement);
             scriptElement.addEventListener('load', e => {
