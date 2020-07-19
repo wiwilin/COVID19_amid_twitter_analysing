@@ -9,11 +9,8 @@ import 'chart.js'
 import MarkerClusterer from 'node-js-marker-clusterer';
 import Colorlegend from "./colorlegend";
 import '../App.css'
-import {stateCaseDate, suburbCaseDate, searchSuburb, searchState, searchState2} from "../modules/scale"
-
 import {colorOnConfirmed} from '../methods/defineColor'
-import {dayFromStr, monthFromStr, dayFromValue, strFromDate} from '../methods/DateTransfer'
-import clsx from 'clsx';
+import {dayFromValue,monthFromValue,strFromDate} from '../methods/DateTransfer'
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -113,7 +110,9 @@ const keyDates = [
     {value: 74, info: "14-day quarantine needed for returners from overseas"},
     {value: 79, info: "Australia closed its borders"},
     {value: 82, info: "cafes shutdown"},
-    {value: 133, info: "stage 3 restrictions in place in Victoria"},
+    {value: 89, info: "stage 3 restrictions in place in Victoria"},
+    {value: 133, info: "stage 3 in Victoria eased"},
+
 ];
 
 const marks = [
@@ -130,8 +129,8 @@ const marks = [
         label: '29/02',
     },
     {
-        value: 88,
-        label: '29/03',
+        value: 89,
+        label: '30/03',
     },
     {
         value: 121,
@@ -210,10 +209,10 @@ class MapContainer extends Component {
         super(props);
         this.state = {
             dateInfo: {
-                month: 1,
-                week: 1,
-                day: 1,
-                str:''
+                month: 3,
+                week: 20,
+                day: 30,
+                str:'0330'
             },
             emotionInfo: {
                 positive: 0,
@@ -373,13 +372,12 @@ class MapContainer extends Component {
 
         });
 
-
-            map.data.addListener('mouseout', function () {
+        map.data.addListener('mouseout', function () {
                 map.data.revertStyle();
                 that.setState({show: "none"});
             });
 
-            map.data.addListener('click', function (event) {
+        map.data.addListener('click', function (event) {
 
                 that.setState({
                     locationInfo: {
@@ -630,7 +628,7 @@ class MapContainer extends Component {
 
         this.setState({
             dateInfo: {
-                month: Math.floor(value / 30) + 1,
+                month: monthFromValue(value),
                 week: Math.floor(value / 7) + 1,
                 day: dayFromValue(value),
                 str: strFromDate(Math.floor(value / 30) + 1, dayFromValue(value))
@@ -638,7 +636,11 @@ class MapContainer extends Component {
         });
 
         for (let day = 0; day < keyDates.length; day++) {
-            if (keyDates[day].value === value) {
+            if(keyDates[day].value< 60)
+            {
+                this.setState({showKeyDate: true, keyDateText: "No state cases before 1 March"});
+            }
+            else if (keyDates[day].value === value) {
                 this.handleClick();
                 this.setState({showKeyDate: true, keyDateText: keyDates[day].info});
                 if (value === 120) {
@@ -873,7 +875,7 @@ class MapContainer extends Component {
                         aria-labelledby="discrete-slider-always"
                         ThumbComponent={AirbnbThumbComponent}
                         marks={marks}
-                        defaultValue={0}
+                        defaultValue={89}
                         valueLabelDisplay="on"
                         onChange={this.DateChange}
                         max={152}
@@ -892,6 +894,7 @@ class MapContainer extends Component {
                                 {this.state.keyDateText}
                             </Alert>
                         </Snackbar>
+
                     </div>
                 </div>
 

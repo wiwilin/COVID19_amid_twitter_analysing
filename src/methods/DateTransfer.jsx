@@ -27,6 +27,19 @@ export function dayFromValue(value){
     return day
 }
 
+export function monthFromValue(value){
+    var month=1
+    if(value>121)//5
+        month=5
+    else if(value>91)//4
+        month=4
+    else if(value>60)//3
+        month=3
+    else if(value>31)
+        month=2
+    return month
+}
+
 export function strFromDate(month,day){
     var monthstr=month.toString()
     if(monthstr.length<2)
@@ -36,6 +49,7 @@ export function strFromDate(month,day){
         daystr='0'+daystr
     return monthstr+daystr
 }
+
 
 
 

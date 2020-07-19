@@ -26,7 +26,7 @@ class Nav extends Component {
     };
 
     componentWillMount() {
-        fetch('https://raw.githubusercontent.com/wiwilin/COVID19_amid_twitter_analysing/master/src/resources/json/state_cases.json')
+        fetch('https://raw.githubusercontent.com/wiwilin/COVID19_amid_twitter_analysing/master/src/resources/json/confirmedAllState.json')
             .then(res => res.json())
             .then(statedata => {
                 this.setState({statecases: statedata})

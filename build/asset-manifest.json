@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.890d0f4b.chunk.css",
-    "main.js": "/static/js/main.e9354479.chunk.js",
-    "main.js.map": "/static/js/main.e9354479.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1ae96f22.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1ae96f22.js.map",
-    "static/css/2.5a2f7233.chunk.css": "/static/css/2.5a2f7233.chunk.css",
-    "static/js/2.4f2802a6.chunk.js": "/static/js/2.4f2802a6.chunk.js",
-    "static/js/2.4f2802a6.chunk.js.map": "/static/js/2.4f2802a6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.faef7cc9926fbac22c8e7aba6a2cb4ed.js": "/precache-manifest.faef7cc9926fbac22c8e7aba6a2cb4ed.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.5a2f7233.chunk.css.map": "/static/css/2.5a2f7233.chunk.css.map",
-    "static/css/main.890d0f4b.chunk.css.map": "/static/css/main.890d0f4b.chunk.css.map",
-    "static/js/2.4f2802a6.chunk.js.LICENSE.txt": "/static/js/2.4f2802a6.chunk.js.LICENSE.txt"
+    "main.css": "/COVID19_amid_twitter_analysing/static/css/main.890d0f4b.chunk.css",
+    "main.js": "/COVID19_amid_twitter_analysing/static/js/main.7f7e9e4c.chunk.js",
+    "main.js.map": "/COVID19_amid_twitter_analysing/static/js/main.7f7e9e4c.chunk.js.map",
+    "runtime-main.js": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js",
+    "runtime-main.js.map": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js.map",
+    "static/css/2.5a2f7233.chunk.css": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css",
+    "static/js/2.d239bd6c.chunk.js": "/COVID19_amid_twitter_analysing/static/js/2.d239bd6c.chunk.js",
+    "static/js/2.d239bd6c.chunk.js.map": "/COVID19_amid_twitter_analysing/static/js/2.d239bd6c.chunk.js.map",
+    "index.html": "/COVID19_amid_twitter_analysing/index.html",
+    "precache-manifest.adf82936a7230c923cca69727806cfea.js": "/COVID19_amid_twitter_analysing/precache-manifest.adf82936a7230c923cca69727806cfea.js",
+    "service-worker.js": "/COVID19_amid_twitter_analysing/service-worker.js",
+    "static/css/2.5a2f7233.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css.map",
+    "static/css/main.890d0f4b.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/main.890d0f4b.chunk.css.map",
+    "static/js/2.d239bd6c.chunk.js.LICENSE.txt": "/COVID19_amid_twitter_analysing/static/js/2.d239bd6c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ae96f22.js",
+    "static/js/runtime-main.1e8094e5.js",
     "static/css/2.5a2f7233.chunk.css",
-    "static/js/2.4f2802a6.chunk.js",
+    "static/js/2.d239bd6c.chunk.js",
     "static/css/main.890d0f4b.chunk.css",
-    "static/js/main.e9354479.chunk.js"
+    "static/js/main.7f7e9e4c.chunk.js"
   ]
 }
