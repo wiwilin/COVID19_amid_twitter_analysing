@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/COVID19_amid_twitter_analysing/static/css/main.9feadecf.chunk.css",
-    "main.js": "/COVID19_amid_twitter_analysing/static/js/main.e45aca2d.chunk.js",
-    "main.js.map": "/COVID19_amid_twitter_analysing/static/js/main.e45aca2d.chunk.js.map",
+    "main.js": "/COVID19_amid_twitter_analysing/static/js/main.bcc24c6f.chunk.js",
+    "main.js.map": "/COVID19_amid_twitter_analysing/static/js/main.bcc24c6f.chunk.js.map",
     "runtime-main.js": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js",
     "runtime-main.js.map": "/COVID19_amid_twitter_analysing/static/js/runtime-main.1e8094e5.js.map",
     "static/css/2.5a2f7233.chunk.css": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css",
-    "static/js/2.721965ab.chunk.js": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js",
-    "static/js/2.721965ab.chunk.js.map": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js.map",
+    "static/js/2.f86d7651.chunk.js": "/COVID19_amid_twitter_analysing/static/js/2.f86d7651.chunk.js",
+    "static/js/2.f86d7651.chunk.js.map": "/COVID19_amid_twitter_analysing/static/js/2.f86d7651.chunk.js.map",
     "index.html": "/COVID19_amid_twitter_analysing/index.html",
-    "precache-manifest.10b35d914794d51916ef90eed46ff904.js": "/COVID19_amid_twitter_analysing/precache-manifest.10b35d914794d51916ef90eed46ff904.js",
+    "precache-manifest.dfc1ed2c7568e56c1e6d530335225f27.js": "/COVID19_amid_twitter_analysing/precache-manifest.dfc1ed2c7568e56c1e6d530335225f27.js",
     "service-worker.js": "/COVID19_amid_twitter_analysing/service-worker.js",
     "static/css/2.5a2f7233.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/2.5a2f7233.chunk.css.map",
     "static/css/main.9feadecf.chunk.css.map": "/COVID19_amid_twitter_analysing/static/css/main.9feadecf.chunk.css.map",
-    "static/js/2.721965ab.chunk.js.LICENSE.txt": "/COVID19_amid_twitter_analysing/static/js/2.721965ab.chunk.js.LICENSE.txt"
+    "static/js/2.f86d7651.chunk.js.LICENSE.txt": "/COVID19_amid_twitter_analysing/static/js/2.f86d7651.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1e8094e5.js",
     "static/css/2.5a2f7233.chunk.css",
-    "static/js/2.721965ab.chunk.js",
+    "static/js/2.f86d7651.chunk.js",
     "static/css/main.9feadecf.chunk.css",
-    "static/js/main.e45aca2d.chunk.js"
+    "static/js/main.bcc24c6f.chunk.js"
   ]
 }
